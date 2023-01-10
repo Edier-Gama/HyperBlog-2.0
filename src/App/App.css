@@ -1,0 +1,108 @@
+:root {
+  --background-body: #20252C;
+  --text-color: white;
+  --title-color: white;
+}
+html {
+  background-color: var(--background-body);
+  font-family:'Quicksand', Times, serif;
+  color: var(--title-color);
+}
+
+
+.navbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 3%;
+}
+
+.nav-links {
+  margin: 10px;
+  list-style: none;
+}
+
+.nav-links a {
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-color);
+}
+
+.nav-links:hover {
+  transform: scale(1.1);
+  transition: transform 300ms;
+}
+
+
+.homeTitle {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+}
+
+.homeDescription {
+  margin: auto;
+  padding: 10px;
+  max-width: 800px;
+  text-align: center;
+  font-size: 20px;
+}
+.homeDescription a {
+  color: rgb(0, 98, 255);
+}
+
+.courseContainer {
+  position: relative;
+  top: 40px;
+  max-width: 700px;
+  padding: 25px;
+  margin: auto;
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, rgb(141, 66, 255), rgb(18, 166, 235)) 1;
+  margin-bottom: 80px;
+}
+
+.courseContainer p {
+  font-size: 20px;
+}
+.courseContainer h2 {
+  font-size: 35px;
+  color: rgb(32, 88, 192);
+}
+
+.courseContainer a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(33, 99, 171);
+  font-weight: bold;
+}
+
+.profile {
+  text-align: center;
+}
+.profile-foto {
+  border-radius: 50%;
+}
+
+.changeName {
+  margin: auto;
+  text-align: center;
+  max-width: 400px;
+}
+.changeName input{
+  font-size: 17px;
+  margin: 20px;
+  width: 300px;
+  height: 30px;
+  padding: 10px;
+}
+
+.changeName button {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+}

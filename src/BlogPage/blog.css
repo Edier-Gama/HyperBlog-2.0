@@ -1,0 +1,91 @@
+.blogpage-container {
+    margin: auto;
+    text-align: center;
+}
+
+.blogpage-container h2 {
+    color: rgb(37, 66, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+}
+.createBlog {
+    top: relative;
+    padding: 15px;
+    font-size:18px;
+    top: -10px;
+    border-radius: 10px;
+}
+
+.blog-container {
+    padding: 0;
+    
+}
+.blog-container li {
+    margin: auto;
+    max-width: 300px;
+    list-style: none;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(2, 76, 224);
+    background-color: white;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(141, 66, 255), rgb(18, 166, 235)) 1;
+}
+
+.blogpage-container a {
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.blogpage-container h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 37px;
+}
+
+form {
+   text-align: center;
+}
+
+.form input {
+    font-size: 20px;
+    margin: 20px;
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+}
+
+.form .blogContent {
+    padding: 15px;
+    font-size: 20px;
+    margin: 20px;
+    height: 300px;
+    width: 80%;
+}
+
+.blogpost button {
+    width: 200px;
+}
+  
+.blogpost {
+    margin: auto;
+    max-width: 800px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(141, 66, 255), rgb(18, 166, 235)) 1;
+    padding: 30px;
+}
+  
+.blogpost h1 {
+    font-family: "Roboto Condensed", sans-serif;
+}  
+
+.newPost {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 30px;
+    bottom: 20px;
+}
+
