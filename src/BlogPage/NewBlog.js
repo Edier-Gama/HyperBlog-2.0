@@ -19,16 +19,16 @@ function CreateBlogView() {
 
     function onBack() {
       navigate('/blog')
-      window.location.reload()
     }
     
     function createBlog() {
       const localStorageData = localStorage.getItem('EJEMPLOO')
       const localStorageBlogs = JSON.parse(localStorageData)
+      let newSlug = blogTitle.replace(/\s/g, '');
       localStorageBlogs.push({
          title: blogTitle, 
          content: blogContent, 
-         slug: blogTitle, 
+         slug: newSlug, 
          author: userType.username
       })
       localStorage.setItem('EJEMPLOO', JSON.stringify(localStorageBlogs));
