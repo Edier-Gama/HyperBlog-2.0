@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/HyperBlog-2.0/static/css/main.7f3e7458.css",
+    "main.js": "/HyperBlog-2.0/static/js/main.b05871f5.js",
+    "index.html": "/HyperBlog-2.0/index.html",
+    "main.7f3e7458.css.map": "/HyperBlog-2.0/static/css/main.7f3e7458.css.map",
+    "main.b05871f5.js.map": "/HyperBlog-2.0/static/js/main.b05871f5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f3e7458.css",
+    "static/js/main.b05871f5.js"
+  ]
+}
